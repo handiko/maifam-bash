@@ -1,0 +1,40 @@
+#!/bin/bash 
+
+WID=25165828
+
+sleep 1
+
+while :
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Reset Position to Status"
+	xdotool type "Status"
+	xdotool key Return
+	sleep 3
+
+	for i in {1..30}
+	do
+		myrandom1=$((RANDOM * 27 + 100000))
+		myrandom2=$((RANDOM * 27 + 100000))
+
+		echo "Stealing from random addresses"
+		xdotool type "/curibarang_$myrandom1$myrandom2"
+		xdotool key Return
+		sleep 2
+
+		myrandom1=$((RANDOM * 27 + 100000))
+		myrandom2=$((RANDOM * 27 + 100000))
+
+		echo "Stealing from random addresses"
+		xdotool type "/curiuang_$myrandom1$myrandom2"
+		xdotool key Return
+		sleep 2
+	done
+
+	echo "Hapus Buronan"
+	xdotool type "44"
+	xdotool key Return
+	sleep 15
+done 

@@ -1,0 +1,30 @@
+#!/bin/bash 
+
+WID=35651588
+
+sleep 2
+
+while :
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Ambil panen - Lahan guild"
+	xdotool type "/kebunGuild_AmbilPanen"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam kacang tanah - Lahan guild"
+	xdotool type "/tanamGuild_Wortel_500"
+	xdotool key Return
+	sleep 2
+
+	echo "Siram - Lahan guild"
+	xdotool type "/KebunGuild_Siram"
+	xdotool key Return
+	sleep 2
+
+	echo "Waiting..!"
+	sleep 180
+
+done

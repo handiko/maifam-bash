@@ -1,0 +1,285 @@
+#!/bin/bash 
+
+WID=25165828
+
+sleep 1
+
+while :
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Reset Position to Status"
+	xdotool type "Status"
+	xdotool key Return
+	sleep 3
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_591926567752"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_892220087144"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_860895142811"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_190067293801"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_630468316543"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_811318359139"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_501013564955"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_850689333648"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_991586191011"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_261451429408"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_971212165859"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_901856569001"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_380124051128"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_250754118009"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_610784279254"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_741074492913"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_211695479231"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_530665396220"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_530665396220"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_470787138241"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_591926567752"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_892220087144"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_860895142811"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_330936051852"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curipanen_190067293801"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_630468316543"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_811318359139"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_501013564955"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_850689333648"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_650347587333"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curiuang_791330322454"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_801321444331"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_920788147644"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_580821374231"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_380638233300"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_950668096052"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_591926567752"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_441128549648"
+	xdotool key Return
+	sleep 2
+
+	echo "Stealing from list"
+	xdotool type "/curibarang_801778494244"
+	xdotool key Return
+	sleep 2
+
+	echo "Hapus Buronan"
+	xdotool type "44"
+	xdotool key Return
+	sleep 10
+
+	for i in {1..3}
+	do
+		echo "Goto Homes - Curi Barang"
+		xdotool type "/rumah_curiBarang"
+		xdotool key Return
+		sleep 3
+
+		echo "Stealing - Barang 1"
+		xdotool mousemove 1022 223 click 1 &
+		sleep 3
+
+		echo "Stealing - Barang 2"
+		xdotool mousemove 1022 223 click 1 &
+		sleep 3
+
+		echo "Stealing - Barang 3"
+		xdotool mousemove 1021 101 click 1 &
+		sleep 3
+	done
+
+	for j in {1..3}
+	do
+		echo "Goto Homes - Curi Uang"
+		xdotool type "/rumah_curiUang"
+		xdotool key Return
+		sleep 3
+
+		echo "Stealing - Uang 1"
+		xdotool mousemove 1022 223 click 1 &
+		sleep 3
+
+		echo "Stealing - Uang 2"
+		xdotool mousemove 1022 223 click 1 &
+		sleep 3
+
+		echo "Stealing - Uang 3"
+		xdotool mousemove 1021 101 click 1 &
+		sleep 3
+	done
+
+	for k in {1..3}
+	do
+		echo "Goto Homes X"
+		xdotool type "Homes X"
+		xdotool key Return
+		sleep 3
+
+		echo "Stealing - 1"
+		xdotool mousemove 1010 153 click 1 &
+		sleep 3
+
+		echo "Stealing - 2"
+		xdotool mousemove 1001 144 click 1 &
+		sleep 3
+
+		echo "Stealing - 3"
+		xdotool mousemove 995 131 click 1 &
+		sleep 3
+
+		echo "Stealing - 4"
+		xdotool mousemove 985 126 click 1 &
+		sleep 3
+	done
+
+	echo "Hapus Buronan"
+	xdotool type "44"
+	xdotool key Return
+	sleep 10
+done 

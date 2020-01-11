@@ -1,0 +1,32 @@
+#!/bin/bash 
+
+WID=37748741
+
+echo "Nernak"
+
+sleep 2
+
+for i in {1..1}
+do
+	xdotool windowactivate $WID
+
+	for j in {1..100}
+	do
+		for k in {1..11}
+		do
+			xdotool windowactivate $WID
+
+			echo "Beli Ternak - $i - $j"
+			xdotool type "/beliternak_Sapi_Sapi_20"
+			xdotool key Return
+			sleep 1.5
+		done 
+
+		echo "Potong Ternak - $i - $j"
+		xdotool type "/potongTernak_Sapi_semua"
+		xdotool key Return
+		sleep 1.5
+	done
+done
+
+echo "Done..!"

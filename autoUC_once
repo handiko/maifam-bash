@@ -1,0 +1,32 @@
+#!/bin/bash 
+
+WID=37748740
+
+sleep 1
+
+echo "goto Telegram window"
+xdotool windowactivate $WID
+
+for i in {1..19}
+do 
+	echo "Restore"
+	xdotool type "/restore"
+	xdotool key Return
+	sleep 3
+
+done
+
+echo "Go to Gua Bawah Tanah"
+xdotool type "Gua Bawah Tanah"
+xdotool key Return
+sleep 2
+
+for i in {1..1470}
+do 
+	xdotool windowactivate $WID
+
+	echo "Nambang - $i - $j"
+	xdotool mousemove 724 556 click 1 &
+	sleep 1.8
+
+done 

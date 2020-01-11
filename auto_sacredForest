@@ -1,0 +1,54 @@
+#!/bin/bash 
+
+WID=37748740
+
+echo "Hunting at the Sacred Forest"
+
+sleep 2
+
+for i in {1..100}
+do
+	xdotool windowactivate $WID
+
+	for j in {1..4}
+	do
+		echo "Restore energy"
+		xdotool type "/restore"
+		xdotool key Return
+		sleep 3
+	done
+
+	echo "Entering Sacred Forest"
+
+	for j in {1..50}
+	do
+		xdotool windowactivate $WID
+
+		echo "Sacred Forest - Catching Animal $j/$i"
+		xdotool type "Hutan Sakral"
+		xdotool key Return
+		sleep 1.7
+
+		xdotool type "Tangkap"
+		xdotool key Return
+		sleep 1.7
+	done
+
+	xdotool type "/aktifkan_sekarang"
+	xdotool key Return
+	sleep 2
+
+	xdotool type "/casino_hasil"
+	xdotool key Return
+	sleep 2
+
+	xdotool type "/casino_UltraLuck_24_5e9"
+	xdotool key Return
+	sleep 2
+
+	xdotool type "Status"
+	xdotool key Return
+	sleep 7
+done
+
+echo "Done..!"

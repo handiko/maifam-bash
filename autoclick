@@ -1,0 +1,28 @@
+#!/bin/bash 
+
+sleep 2
+
+for j in {1..8}
+do
+	echo "Executing Loop Number $j"
+	
+	for i in {1..82}
+	do
+		echo "Executing Loop Number $j - $i"
+
+		xdotool mousemove 971 544 click 1 &
+		sleep 2
+	done 
+
+	xdotool mousemove 978 511 click 1 &
+	sleep 2
+
+	xdotool mousemove 976 425 click 1 &
+	sleep 2
+
+	xdotool mousemove 967 377 click 1 &
+	sleep 2
+
+done
+
+echo "Done..!"

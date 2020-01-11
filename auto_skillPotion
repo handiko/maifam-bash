@@ -1,0 +1,16 @@
+#!/bin/bash 
+
+WID=35651588
+
+
+for i in {1..160}
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "skillPotion - claim"
+	xdotool type "/skillPotion_tambang"
+	xdotool key Return
+	sleep 2
+	
+done 

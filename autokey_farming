@@ -1,0 +1,65 @@
+#!/bin/bash 
+
+WID=25165828
+
+sleep 2
+
+while :
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Tarik bet"
+	xdotool type "/casino_hasil"
+	xdotool key Return
+	sleep 2
+
+	echo "Pasang bet"
+	xdotool type "/casino_FiftyFifty_1_5e9"
+	xdotool key Return
+	sleep 2
+
+	for i in {1..2}
+	do
+		echo "goto Telegram window"
+		xdotool windowactivate $WID
+
+		echo "Ambil panen - Lahan pribadi"
+		xdotool type "/ambilPanen"
+		xdotool key Return
+		sleep 2
+
+		echo "Tanam kacang tanah - Lahan pribadi"
+		xdotool type "/tanam_KacangTanah_170"
+		xdotool key Return
+		sleep 2
+
+		echo "Siram - Lahan pribadi"
+		xdotool type "/siram"
+		xdotool key Return
+		sleep 2
+
+
+
+
+		echo "Ambil panen - Lahan guild"
+		xdotool type "/kebunGuild_AmbilPanen"
+		xdotool key Return
+		sleep 2
+
+		echo "Tanam kacang tanah - Lahan guild"
+		xdotool type "/tanamGuild_KacangTanah_400"
+		xdotool key Return
+		sleep 2
+
+		echo "Siram - Lahan guild"
+		xdotool type "/KebunGuild_Siram"
+		xdotool key Return
+		sleep 2
+
+		echo "Waiting..!"
+		sleep 121	
+
+	done
+
+done 

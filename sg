@@ -1,0 +1,34 @@
+#!/bin/bash 
+
+WID=37748740
+
+sleep 2
+
+while :
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Panen"
+	xdotool type "/sg_panen"
+	xdotool key Return
+	sleep 3
+
+	xdotool windowactivate $WID
+
+	echo "Lihat Keranjang Buah"
+	xdotool type "/sg_KeranjangBuah"
+	xdotool key Return
+	sleep 3
+
+	xdotool windowactivate $WID
+
+	echo "Cek Kebun"
+	xdotool type "/sg"
+	xdotool key Return
+	sleep 30
+
+	echo "Waiting...."
+	echo "   "
+
+done 

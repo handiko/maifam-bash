@@ -1,0 +1,72 @@
+#!/bin/bash 
+
+WID=46137348
+
+sleep 2
+
+while :
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Tanam Pepaya"
+	xdotool type "/tanam_Pepaya_2"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Buah Naga"
+	xdotool type "/tanam_BuahNaga_2"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Kelapa"
+	xdotool type "/tanam_Kelapa_2"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Pir"
+	xdotool type "/tanam_Pir_2"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Nangka"
+	xdotool type "/tanam_Nangka_2"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Mangga"
+	xdotool type "/tanam_Mangga_2"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Pepaya"
+	xdotool type "/tanam_Pepaya_1"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Buah Naga"
+	xdotool type "/tanam_BuahNaga_1"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Kelapa"
+	xdotool type "/tanam_Kelapa_1"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Pir"
+	xdotool type "/tanam_Pir_1"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Nangka"
+	xdotool type "/tanam_Nangka_1"
+	xdotool key Return
+	sleep 2
+
+	echo "Tanam Mangga"
+	xdotool type "/tanam_Mangga_1"
+	xdotool key Return
+	sleep 2
+
+done 

@@ -1,0 +1,78 @@
+#!/bin/bash 
+
+WID=48234500
+
+sleep 1
+
+for i in {1..777}
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Restore Energy to 2000"
+	xdotool type "restore"
+	xdotool key Return
+	sleep 3
+
+	echo "Reset Position to Status"
+	xdotool type "Status"
+	xdotool key Return
+	sleep 3
+
+	for k in {1..19}
+	do
+		for j in {1..3}
+		do
+			echo "Goto Homes X - $i-$k-$j"
+			xdotool type "Homes X"
+			xdotool key Return
+			sleep 2.0
+
+			echo "Stealing - 1"
+			xdotool mousemove 700 150 click 1 &
+			sleep 2.0
+
+			echo "Stealing - 2"
+			xdotool mousemove 700 180 click 1 &
+			sleep 1.1
+
+			xdotool type "Hapus menggunakan Uang"
+			xdotool key Return
+			sleep 1.1
+
+		done
+
+		xdotool type "release"
+		xdotool key Return
+		sleep 3
+
+	done
+
+	xdotool type "/aktifkan_sekarang"
+	xdotool key Return
+	sleep 3
+
+	echo "Tarik bet"
+	xdotool type "/casino_hasil"
+	xdotool key Return
+	sleep 3
+
+	echo "Pasang bet"
+	xdotool type "/casino_UltraLuck_25_5e11"
+	xdotool key Return
+	sleep 3
+
+	#echo "New Address"
+	#xdotool type "/newaddressx"
+	#xdotool key Return
+	#sleep 3
+
+	#xdotool mousemove 845 605 click 1 &
+	#sleep 3
+
+	echo "Reset Position to Status"
+	xdotool type "Status"
+	xdotool key Return
+	sleep 20
+	
+done 

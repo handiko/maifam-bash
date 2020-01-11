@@ -1,0 +1,22 @@
+#!/bin/bash 
+
+WID=37748740
+
+sleep 1
+
+cho "goto Telegram window"
+xdotool windowactivate $WID
+
+echo "Start to bombing..."
+
+sleep 2
+
+for j in {1..1900}
+do
+	echo "Bombing - bomb spent: $j"
+	xdotool mousemove 1056 613 click 1 &
+	sleep 3.5
+
+done
+
+echo "Done..!"

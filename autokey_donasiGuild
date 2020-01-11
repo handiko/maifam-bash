@@ -1,0 +1,17 @@
+#!/bin/bash 
+
+WID=20971524
+
+sleep 2
+
+for j in {1..30}
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Upload item $j"
+	xdotool type "/donasiGuild_KuraKura10000Tahun_ambil"
+	xdotool key Return
+	sleep 2
+
+done 
