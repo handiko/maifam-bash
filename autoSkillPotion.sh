@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-WID=35651588
+WID=35651589
 
 sleep 1
 
@@ -12,7 +12,7 @@ xdotool type "/skillPotion"
 xdotool key Return
 sleep 1.5
 
-for i in {1..237}
+for i in {1..200}
 do 
 	xdotool windowactivate $WID
 

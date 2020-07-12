@@ -1,0 +1,18 @@
+#!/bin/bash 
+
+WID=39845893
+
+sleep 1
+
+for i in {1..10000}
+do 
+	echo "Mancing - $i"
+	xdotool windowactivate $WID
+	
+	xdotool type "Haunted Sea"
+	xdotool key Return
+	sleep 2.5
+
+	xdotool mousemove 1000 460 click 1 &
+	sleep 2.5
+done 

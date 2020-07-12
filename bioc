@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+WID=35651589
+
+sleep 1
+
+
+for j in {1..240}
+do 
+	xdotool mousemove 941 609 click 1 &
+	sleep 10.1
+done

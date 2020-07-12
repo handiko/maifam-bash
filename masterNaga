@@ -1,0 +1,34 @@
+#!/bin/bash 
+
+WID=20971525
+
+DELAY=1.3
+
+sleep 1
+
+echo "goto Telegram window"
+xdotool windowactivate $WID
+
+for j in {1..100}
+do 
+	xdotool windowactivate $WID
+
+	echo "Set skill"
+	xdotool type "/setskill_49323456"
+	xdotool key Return
+	sleep 2
+
+	for i in {1..50}
+	do
+		xdotool windowactivate $WID
+
+		echo "Hunting - $i - $j"
+		xdotool type "Gurun Pasir 3"
+		xdotool key Return
+		sleep $DELAY
+
+		xdotool type "Tangkap"
+		xdotool key Return
+		sleep $DELAY
+	done
+done 

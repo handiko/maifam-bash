@@ -1,16 +1,17 @@
 #!/bin/bash 
 
-WID=35651589
+WID=37748741
 
+sleep 2
 
-for i in {1..120}
+while :
 do 
 	echo "goto Telegram window"
 	xdotool windowactivate $WID
 
-	echo "Voucher - claim"
-	xdotool type "/voucher_KuraKura10000Tahun"
+	echo "Tarik bet"
+	xdotool type "/endbid"
 	xdotool key Return
 	sleep 2
-	
+
 done 

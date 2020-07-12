@@ -1,38 +1,28 @@
 #!/bin/bash 
 
-WID=23068677
+WID=25165829
 
 echo "Nernak"
 
 sleep 2
 
-for i in {1..18}
+for i in {1..1000}
 do
 	xdotool windowactivate $WID
 
-	echo "Restore energy"
-	xdotool type "/restore"
+	echo "Run - $i"
+
+	echo "Ambil Ternak"
+	xdotool type "/ambilHewan"
 	xdotool key Return
-	sleep 2
+	sleep 2.5
 
-	for j in {1..212}
-	do
-		xdotool windowactivate $WID
-
-		echo "Ambil Ternak - $i - $j"
-		xdotool type "/ambilHewan"
-		xdotool key Return
-		sleep 2
-
-		echo "Beri Makan - $i - $j"
-		xdotool type "/add_BayiBabi_88"
-		xdotool key Return
-		sleep 2
-	done
-
-	xdotool type "/aktifkan_sekarang"
+	echo "Beri Makan"
+	xdotool type "/add_BayiBabi_130"
 	xdotool key Return
-	sleep 1.5
+	sleep 2.5
+
+	echo " "
 done
 
 echo "Done..!"

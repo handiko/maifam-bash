@@ -1,0 +1,96 @@
+#!/bin/bash 
+
+WID=35651589
+
+sleep 1
+
+echo "goto Telegram window"
+xdotool windowactivate $WID
+
+echo "Jual Batu"
+jumlah=63150
+
+sleep 2
+
+xdotool type "/sell_Kalifornium545SSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_Kalifornium565SSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_Kalifornium525SSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_MendaciumSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_LeidraniumSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_DragoniteSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_AliceniumSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_SehaastoneSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_BabaniumSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_SkyniumSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_PoerniteSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_ValyriumSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_JummiteSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_EdliniumSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_WinklestoneSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_KatariniteSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_DementoriumSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_MagistoneSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_KeniumSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+
+xdotool type "/sell_NastariteSSS_${jumlah}_confirm"
+xdotool key Return
+sleep 3
+	
+
+echo "Done..!"

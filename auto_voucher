@@ -1,0 +1,19 @@
+#!/bin/bash 
+
+WID=25165829
+
+echo "goto Telegram window"
+xdotool windowactivate $WID
+
+
+for i in {1..700}
+do 
+	#echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Voucher claim - $i"
+	xdotool type "/voucher_KuraKura10000Tahun"
+	xdotool key Return
+	sleep 3
+	
+done 

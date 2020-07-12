@@ -1,0 +1,36 @@
+#!/bin/bash 
+
+WID=37748741
+
+sleep 1
+
+for i in {1..10000}
+do 
+	echo "goto Telegram window"
+	xdotool windowactivate $WID
+
+	echo "Cek Kandang"
+	xdotool type "/ternak"
+	xdotool key Return
+	sleep 5
+
+	echo "Harvest"
+	xdotool type "/ambilHasil"
+	xdotool key Return
+
+	echo "Harvest"
+	xdotool type "/ambilHasil"
+	xdotool key Return
+	sleep 10
+
+	echo "Feed"
+	xdotool type "/beriMakan"
+	xdotool key Return
+	sleep 5
+
+	echo "Cek Kandang"
+	xdotool type "/ternak"
+	xdotool key Return
+	sleep 600
+	
+done 

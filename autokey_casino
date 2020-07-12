@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-WID=27262980
+WID=23068677
 
 sleep 2
 
@@ -15,39 +15,7 @@ do
 	sleep 3
 
 	echo "Pasang bet"
-	xdotool type "/casino_UltraLuck_7_5e9"
-	xdotool key Return
-	sleep 3
-
-	xdotool windowactivate $WID
-	echo "Feedx Special Animal"
-	xdotool type "/feedx"
-	xdotool key Return
-	sleep 3
-
-	echo "Ambil hasil & Feed animal"
-	xdotool type "/ambilHasil"
-	xdotool key Return
-	sleep 3
-
-	xdotool type "/feed"
-	xdotool key Return
-	sleep 3
-
-
-	xdotool windowactivate $WID
-	echo "Ambil panen - Lahan pribadi"
-	xdotool type "/ambilPanen"
-	xdotool key Return
-	sleep 3
-
-	echo "Tanam kacang tanah - Lahan pribadi"
-	xdotool type "/tanam_Peanut_403"
-	xdotool key Return
-	sleep 3
-
-	echo "Siram - Lahan pribadi"
-	xdotool type "/siram"
+	xdotool type "/casino_UltraLuck_16_5e9"
 	xdotool key Return
 	sleep 3
 
@@ -55,9 +23,8 @@ do
 	xdotool key Return
 	sleep 3
 
-
 	echo "Waiting..!"
 	echo "  "
-	sleep 101
+	sleep 55
 
 done 

@@ -1,20 +1,25 @@
 #!/bin/bash 
 
-WID=23068677
+WID=25165829
 
 sleep 1
 
 echo "goto Telegram window"
 xdotool windowactivate $WID
 
-for j in {1..100}
+for j in {1..2}
 do 
-	for i in {1..19}
+	echo "Makan kambing"
+	xdotool type "/makan_SteakKambingKeramat"
+	xdotool key Return
+	sleep 2
+
+	for i in {1..20}
 	do 
-		echo "Restore"
+		echo "Restore - $i"
 		xdotool type "/restore"
 		xdotool key Return
-		sleep 3
+		sleep 2
 
 	done
 
@@ -23,40 +28,36 @@ do
 	xdotool key Return
 	sleep 2
 
-	for i in {1..1410}
+	for i in {1..2020}
 	do 
 		xdotool windowactivate $WID
 
 		echo "Nambang - $i - $j"
 		xdotool mousemove 724 556 click 1 &
-		sleep 1.7
+		sleep 1.9
 
 	done 
 
-	xdotool type "/ambilHasilSekarang"
-	xdotool key Return
-	sleep 3
+	echo "Nuyul"
 
-	xdotool type "/beriMakan"
+	xdotool type "/curibarang_130555533750"
 	xdotool key Return
-	sleep 3
+	sleep 2
+
+	xdotool type "/curibarang_460674083749"
+	xdotool key Return
+	sleep 1.1
+
+	xdotool type "Hapus menggunakan Uang"
+	xdotool key Return
+	sleep 1.1
 
 	xdotool type "/aktifkan_sekarang"
 	xdotool key Return
 	sleep 3
 
-	echo "Tarik bet"
-	xdotool type "/casino_hasil"
-	xdotool key Return
-	sleep 3
-
-	echo "Pasang bet"
-	xdotool type "/casino_UltraLuck_25_5e11"
-	xdotool key Return
-	sleep 3
-
 	xdotool type "Status"
 	xdotool key Return
-	sleep 30
+	sleep 10
 
 done 

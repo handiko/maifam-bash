@@ -1,0 +1,148 @@
+#!/bin/bash 
+
+WID=37748741
+
+echo "goto Telegram window"
+xdotool windowactivate $WID
+
+sleep 2
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_Kalifornium545SSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_Kalifornium565SSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_Kalifornium525SSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_LeidraniumSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_MendaciumSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_DragoniteSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_PoerniteSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_SkyniumSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_BabaniumSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_SehaastoneSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_AliceniumSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_ValyriumSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_DementoriumSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_KatariniteSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_WinklestoneSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_EdliniumSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_JummiteSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_MagistoneSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_KeniumSSS_1e6_confirm"
+xdotool key Return
+sleep 3
+
+xdotool windowactivate $WID
+
+echo "Create HyperstoneOfYouth - $i"
+xdotool type "/kirimbarang_NastariteSSS_1e6_confirm"
+xdotool key Return
+sleep 3

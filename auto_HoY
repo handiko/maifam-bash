@@ -1,0 +1,18 @@
+#!/bin/bash 
+
+WID=37748741
+
+echo "goto Telegram window"
+xdotool windowactivate $WID
+
+sleep 2
+
+for i in {1..75}
+do 
+	xdotool windowactivate $WID
+
+	echo "Create HyperstoneOfYouth - $i"
+	xdotool type "/labsihir_HyperstoneOfYouth"
+	xdotool key Return
+	sleep 3
+done

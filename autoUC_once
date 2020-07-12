@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-WID=37748740
+WID=35651589
 
 sleep 1
 
@@ -21,7 +21,7 @@ xdotool type "Gua Bawah Tanah"
 xdotool key Return
 sleep 2
 
-for i in {1..1470}
+for i in {1..1400}
 do 
 	xdotool windowactivate $WID
 

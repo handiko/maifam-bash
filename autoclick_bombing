@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-WID=37748740
+WID=35651589
 
 sleep 1
 
@@ -11,11 +11,11 @@ echo "Start to bombing..."
 
 sleep 2
 
-for j in {1..1900}
+for j in {1..5000}
 do
 	echo "Bombing - bomb spent: $j"
 	xdotool mousemove 1056 613 click 1 &
-	sleep 3.5
+	sleep 3
 
 done
 
