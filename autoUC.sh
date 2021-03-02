@@ -1,13 +1,13 @@
 #!/bin/bash 
 
-WID=35651590
+WID=50331654
 
 sleep 1
 
 echo "goto Telegram window"
 xdotool windowactivate $WID
 
-for j in {1..20}
+for j in {1..24}
 do 
 	echo "Home"
 	xdotool type "Status"
@@ -24,13 +24,13 @@ do
 	xdotool key Return
 	sleep 2
 
-	for i in {1..2480}
+	for i in {1..2490}
 	do 
 		xdotool windowactivate $WID
 
 		echo "Nambang - $i - $j"
 		xdotool mousemove 800 560 click 1 &
-		sleep 2.3
+		sleep 2.7
 
 	done 
 
