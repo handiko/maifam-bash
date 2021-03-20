@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-WID=37748741
+WID=52428806
 
 sleep 1
 
@@ -17,88 +17,80 @@ do
 	echo "Reset Position to Status"
 	xdotool type "Status"
 	xdotool key Return
-	sleep 2
+	sleep 3
 
-	for k in {1..11}
+	for k in {1..15}
 	do
 		for j in {1..6}
 		do
 			echo "Goto Homes X - $i-$k-$j"
 			xdotool type "Homes X"
 			xdotool key Return
-			sleep 2.5
+			sleep 3
 
 			echo "Stealing - 1"
-			xdotool mousemove 730 150 click 1 &
-			sleep 2.2
+			xdotool mousemove 3170 388 click 1 &
+			sleep 3
 
 			echo "Stealing - 2"
-			xdotool mousemove 730 120 click 1 &
-			sleep 1.5
-
-			xdotool type "Homes X"
-			xdotool key Return
-			sleep 2.5
+			xdotool mousemove 3170 188 click 1 &
+			sleep 3
 
 			echo "Stealing - 3"
-			xdotool mousemove 730 150 click 1 &
-			sleep 2.2
-
-			echo "Stealing - 4"
-			xdotool mousemove 730 120 click 1 &
-			sleep 1.5
+			xdotool mousemove 3160 153 click 1 &
+			sleep 3
 
 			xdotool type "Hapus menggunakan Uang"
 			xdotool key Return
-			sleep 1.5
+			sleep 3
 
 		done
 
 		xdotool type "/release"
 		xdotool key Return
-		sleep 2
+		sleep 3
 
-		echo "Nuyul"
+		#echo "Nuyul"
 
-		xdotool type "/curibarang_130555533750"
-		xdotool key Return
-		sleep 2
+		#xdotool type "/curibarang_130555533750"
+		#xdotool key Return
+		#sleep 2.5
 
-		xdotool type "/curibarang_460674083749"
-		xdotool key Return
-		sleep 1.1
+		#xdotool type "/curibarang_460674083749"
+		#xdotool key Return
+		#sleep 2.5
 
-		xdotool type "Hapus menggunakan Uang"
-		xdotool key Return
-		sleep 1.1
+		#xdotool type "Hapus menggunakan Uang"
+		#xdotool key Return
+		#sleep 2.5
 
 	done
 
-	xdotool type "/aktifkan_sekarang"
-	xdotool key Return
-	sleep 2
-
-	echo "Tarik bet"
-	xdotool type "/casino_hasil"
-	xdotool key Return
-	sleep 2
-
-	echo "Pasang bet"
-	xdotool type "/casino_UltraLuck_25_5e11"
-	xdotool key Return
-	sleep 2
-
-	#echo "New Address"
-	#xdotool type "/newaddressx"
+	#xdotool type "/aktifkan_sekarang"
 	#xdotool key Return
-	#sleep 3
+	#sleep 2
 
-	#xdotool mousemove 845 605 click 1 &
-	#sleep 3
+	#echo "Tarik bet"
+	#xdotool type "/casino_hasil"
+	#xdotool key Return
+	#sleep 2
+
+	#echo "Pasang bet"
+	#xdotool type "/casino_UltraLuck_25_5e11"
+	#xdotool key Return
+	#sleep 2
+
+	echo "New Address"
+	xdotool type "/newaddressx"
+	xdotool key Return
+	sleep 3
+
+	xdotool mousemove 3213 795 click 1 &
+	sleep 3
 
 	echo "Reset Position to Status"
 	xdotool type "Status"
 	xdotool key Return
-	sleep 20
+	sleep 10
 	
 done 

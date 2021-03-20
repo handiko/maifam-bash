@@ -1,6 +1,10 @@
 #!/bin/bash 
 
+<<<<<<< HEAD
 WID=35651590
+=======
+WID=52428806
+>>>>>>> 88f08892f0cf9462fcd67dd7a3b39b8f7342c64b
 
 sleep 1
 
@@ -29,8 +33,8 @@ do
 		xdotool windowactivate $WID
 
 		echo "Nambang - $i - $j"
-		xdotool mousemove 800 560 click 1 &
-		sleep 2.7
+		xdotool mousemove 1762 798 click 1 &
+		sleep 2.6
 
 	done 
 
