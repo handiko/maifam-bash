@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-WID=48234502
+WID=31457286
 
 DELAY=15.1
 
@@ -23,12 +23,12 @@ do
 	#xdotool key Return
 	sleep $DELAY
 
-	for i in {1..425}
+	for i in {1..24}
 	do
 		xdotool windowactivate $WID
 
 		echo "Nambang - $i - $j"
-		xdotool mousemove 792 568 click 1 &
+		xdotool mousemove 800 570 click 1 &
 		sleep $DELAY
 	done
 done 
