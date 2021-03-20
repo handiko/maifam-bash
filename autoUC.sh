@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-WID=50331654
+WID=35651590
 
 sleep 1
 
@@ -24,7 +24,7 @@ do
 	xdotool key Return
 	sleep 2
 
-	for i in {1..2490}
+	for i in {1..2350}
 	do 
 		xdotool windowactivate $WID
 
